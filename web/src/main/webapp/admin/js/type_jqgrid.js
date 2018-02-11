@@ -2,7 +2,7 @@ jQuery(function ($) {
     var grid_selector = "#grid-table";
     var pager_selector = "#grid-pager";
 
-    jQuery(grid_selector).jqGrid({
+    jqGrid = jQuery(grid_selector).jqGrid({
         url: 'api/admin/type',
         datatype: "json",
         colNames: [' ', 'ID', lang.typeName, lang.alias, lang.mark],

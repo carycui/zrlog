@@ -36,7 +36,7 @@ jQuery(function ($) {
 
         ],
 
-        viewrecords: false,
+        viewrecords: true,
         rowNum: 10,
         rowList: [10, 20, 30],
         pager: pager_selector,
@@ -112,11 +112,10 @@ jQuery(function ($) {
                 style_delete_form(form);
 
                 form.data('styled', true);
-            },
-            onClick: function (e) {
-                alert(1);
             }
         },
+        {},
+        {},
         {}
     );
 });

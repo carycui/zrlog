@@ -9,6 +9,7 @@ $(function () {
             {name: 'count', index: 'count', width: 70, sortable: false}
         ],
         rowNum: 10,
+        viewrecords: true,
         rowList: [10, 20, 30],
         pager: pager_selector,
         altRows: true,
